@@ -1,0 +1,18 @@
+/* rule1 */
+p {
+    color:grey;
+    background-color: black;
+}
+
+/* rule2 */
+div p {
+    color:white;
+}
+
+/* 
+The correct answer is that paragraph's background will be black.
+This is because even though div p has a higher specificity and later source order
+to win against p by itself, it's only the color property conflicting against each other.
+
+Rule 2 does not state for the background-colour to be anything else.
+*/

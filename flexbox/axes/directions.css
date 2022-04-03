@@ -1,0 +1,29 @@
+/* Set both containers to flex display */
+.default, .vertical {
+    display: flex;
+    height: 300px;
+}
+
+/*Default flex direction is horizontal, thus flex-items line up adjacently.*/
+.default div {
+    border: solid 2px black;
+    background: lavender;
+    width: 300px;
+}
+
+/* 
+Set flex-direction to vertical instead of row. 
+*/
+.vertical {
+    flex-direction: column;
+}
+
+/*
+The shrink and flex factors now affect height instead of width. i.e.
+COMMENT OUT THE HEIGHT SETTINGS and it won't work.
+*/
+.vertical div {
+    border: solid black 2px;
+    background-color: rosybrown;
+    height: 300px;
+}

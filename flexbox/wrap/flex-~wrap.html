@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-wrap showcase</title>
+    <link rel="stylesheet" href="./flex-wrap.css">
+</head>
+<body>
+    <h1>flex-wrap showcase</h1>
+    <h2>original</h2>
+    <div class="button-block">
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+    </div>
+    <p>
+        SCENARIO: Each button is set to 200px wide. However, the width of 
+        dotted black container is only 600px, meaning all 4 buttons shrink 
+        to fit container.
+
+        How to get the buttons to overflow instead of shrink. i.e. move to newline if
+        1 line of container is not long enough?
+    </p>
+    <h2>multiline container</h2>
+    <div class="multiline">
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+    </div>
+    <p>
+        SCENARIO: You want to use flex-flow which specifies [flex-direction] [flex-wrap] to
+        create a vertical block with wrap to overflow if the height of container is not long enough
+        to house all buttons.
+    </p>
+    <div class="flow">
+        <button></button>
+        <button></button>
+        <button></button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+p {
+    /*Provide fonts as a list of values,
+    so that browser goes to quintessential if it can't support festive then yellow
+    if not quintessential etc.*/
+    font-family:"Festive", cursive, "Quintessential", cursive, "Yellowtail", cursive;

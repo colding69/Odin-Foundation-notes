@@ -1,0 +1,17 @@
+ul.block {
+    font-size: 30px;
+    /* remove bullet points */
+    list-style-type: none;
+    /* set inner display as block */
+}
+
+ul.eukaryotic-gene {
+    font-size: 30px;
+    list-style-type: none;
+    /* set inner display as inline flex */
+    display: inline-flex;
+}
+
+.eukaryotic-gene li {
+    border: solid 2px;
+}

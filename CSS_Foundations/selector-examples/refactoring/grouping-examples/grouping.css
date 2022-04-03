@@ -1,0 +1,36 @@
+/* This is the wrong approach.
+While this works, you have to repeat color: white; and background-color: grey;
+That is very inefficient.
+
+.small-text {
+    color: white;
+    background-color: grey;
+    font-size:x-small;
+}
+
+.big-text {
+    color: white;
+    background-color: grey;
+    font-size: x-large;
+}
+
+*/
+
+/* Grouping / comma separated lists of selectors.
+
+The right approach in this case is by selector grouping.
+Given that both selectors share color white and background colour grey,
+do the following.
+*/
+.small-text, .big-text {
+    color:white;
+    background-color: grey;
+}
+
+.small-text {
+    font-size:x-small;
+}
+
+.big-text {
+    font-size:x-large;
+}

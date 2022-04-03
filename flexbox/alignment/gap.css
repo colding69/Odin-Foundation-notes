@@ -1,0 +1,26 @@
+div {
+    border: solid black 1px;
+}
+
+.container,
+.gap-container {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: orchid;
+}
+
+.container div,
+.gap-container div {
+    height: 100px;
+    width: 100px;
+    background-color: olive;
+}
+
+/* To repel each of the boxes away from each other as if there's a margin of 20px; */
+
+.gap-container {
+    gap: 20px;
+}

@@ -1,0 +1,63 @@
+
+
+How do id, class and type selectors compare with each other in terms of specificity:
+id selector > any number of class selectors
+class selector > any number of type selectors
+type selector > universal selector and inherited values
+
+universal selector and inherited values have a specificity value of 0.
+
+What determines a higher weight when all selectors are evenly matched in specificity?
+higher number of selectors > lower number of selectors of the same specificity.
+the source order : a later rule/declaration wins.
+
+What are the 3 sources of style information forming a cascade?
+CSS stylesheets
+Browser's default styles
+End-user specified styles.
+
+What is a CSS pseudo-class?
+A keyword added to the selector that gives the element special behaviour e.g.
+hover which change colour when cursor passover it.
+
+
+
+References:
+sololearn CSS: Style Cascade and Inheritance.
+https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance
+
+
+##################################################################
+/* rule 1 */
+#subsection .list {
+  background-color: yellow;
+  color: blue;
+}
+
+/* rule 2 */
+#subsection .main .list  {
+  color: red;
+}
+
+What would the background colour be?
+Yellow because there's nothing in rule 2 to conflict with rule 1.
+#####################################################################
+
+Why will paragraph here have blue text instead of red?
+
+<div id="ancestor">
+    <p class="descendant">paragraph</p>
+
+#ancestor {
+    color: red;
+}
+
+.descedant {
+    color: blue;
+}
+
+When descendant class is directly selected, the inherited red colour
+from ancestor id is lost.
+
+
+######################################################################

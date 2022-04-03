@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direction change</title>
+    <link rel="stylesheet" href="./directions.css">
+</head>
+<body>
+    <h1>Effect of changing flex directions / axis</h1>
+    <p>By default, flex-container's direction is horizontal.</p>
+    <div class="default">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <p>
+        However, the direction of flex container could be changed to vertical,
+        thus items STACK ON TOP OF EACH OTHER instead of adjacently.
+        
+        Growth and shrink factors apply to height instead of width.
+    </p>
+    <div class="vertical">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

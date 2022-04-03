@@ -1,0 +1,86 @@
+Describe what the internet is?
+The technical infrastructure enabling a global network of computers interconnected through IP protocols and data packets. 
+
+What is the world wide web?
+World Web Web is the transmission protocol built on top of the internet.
+
+What is a router?
+A intermediary device which directs packets from origin to destination device.
+
+Why is a router useful?
+Devices within a network all connect to the router, instead of each other.
+Thereby reducing number of connections and complexity in a network.
+Building very large network consisting of smaller networks connected through router-router links.
+
+
+What are the reasons for truncating data into 'packets' during transport on internet?
+Replacing smaller packets enables corrupted data to be salvaged.
+Packets from same data can be routed along different paths. 
+This prevents congestion from sending whole data to one user at a time.
+Allowing faster exchange and multiple users to simultaneously download website. 
+
+Differences between webpage, website and web server?
+Webpages are files displayable by a browser with an unique URL.
+Website is a collection of webpages and other component files sharing unique domain name.
+Web server is the computing device hosting one or more webistes.
+
+Differences between web browser and search engine?
+Search engine is a website for finding webpages.
+Web browser is a software for retrieving and accessing webpages.
+
+
+What is DNS server?
+The address book matching website's IP address to domain name. 
+
+What is a DNS request?
+Occurs when a domain name is not locally stored in client's DNS cache.
+When a browser accesses DNS server to obtain website's IP address from its domain name, in order to send request to the right server. 
+
+Describe the procedure after a website's address is typed into browser.
+Browser makes DNS request to retrieve IP address of website's server.
+Browser sends HTTPrequest to server.
+Server approves request and signals "200 OK" messages to client.
+Client retrieves a copy of the website in packets.
+Browser displays website.
+
+
+Chronology of website parsing and rendering.
+
+1) Server returns {{c1::HTML file}} in response to client request.
+
+2) Browser {{c1::parse through HTML file}} from beginning to end.
+
+3) A {{c1::request is initiated}} for every {{c1::CSS link}} and javascript script found within HTML.
+
+4) Browser constructs DOM from parsed HTML to {{c1::DOM}}.
+
+5) Browser constructs {{c1::CSSOM}}  from CSS.
+
+6) Browser {{c1::engine}} combines {{c1::DOM}} and {{c1::CSSOM}} to create {{c1::render tree}}.
+
+7) Browser compiles and executes Javascript scripts.
+
+6) Browser determines {{c1::layout}} of page before {{c1::rendering it in pixels.}}
+
+
+
+
+What is a client?
+An computing device for making requests to servers, often connected to internet via ISPs.
+
+What is a server?
+A computing device for hosting 1 or more websites and sends responses to clients request, often connected directly to internet.
+
+What is IP address?
+Unique string of numbers assigned to each device connected to internet.
+
+
+
+What is an ISP?
+A company providing clients access to internet through managing routers network and connecting to routers of other ISPs.
+
+LAN <--> ISP network <--> destination network
+
+
+
+

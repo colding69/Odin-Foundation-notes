@@ -1,0 +1,46 @@
+div {
+    border: solid black 2px;
+}
+
+.default-row,
+.column {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+.default-row div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+/* 
+When flex-direction is row by default:
+ - justify-content aligns along x axis.
+ - align-items aligns along y axis.
+*/
+
+.default-row {
+    flex-direction: row;
+    justify-content: left;
+    align-items: top;
+}
+
+/*
+When flex-direction is set to column. THINGS SWAP!:
+ - justify-content aligns along y axis
+ - align items aligns along x axis
+*/
+
+.column {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.column div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}

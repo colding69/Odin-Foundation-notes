@@ -1,0 +1,74 @@
+
+##################################################################################################################
+What is the difference between a flex container and a flex item?
+
+A flex container has display: flex.
+Flex items refer to elements inside of a flex container.
+
+Under what circumstances is an element both a flex container and flex item?
+When it is a nested flex container.
+
+
+#######################################################################################################################What 
+#####################################################################################################################
+When main axis is running in the inline(horizontal) direction:
+
+horizontal alignment is controlled by {{c1::justify-content}}
+vertical alignment is controlled by {{c1::align-items}}
+
+When main axis is running in the block(vertical) direction:
+
+horizontal alignment is controlled by {{c1::align-items}}
+vertical alignment is controlled by {{c1::justify-content}}
+****************************************************************************************************************************************
+What does 'inline direction' mean?
+horizontal across page
+
+What does 'block direction' mean?
+vertical across page
+
+What property defines the direction of a flex object's main axis?
+flex-direction
+
+What values of flex-direction sets main axis in the inline direction?
+row
+row-reverse
+
+What values of flex-direction sets main axis in the block direction?
+column
+column-reverse
+
+What will the direction of cross axis be if main axis runs in the inline direction?
+block direction
+
+What will the direction of cross axis be if main axis runs in the block direction?
+inline direction
+
+Cross axis runs perpendicularly to main axis.
+
+What property aligns items along the main axis?
+justify-content
+
+What property aligns items along the cross axis?
+align-items
+******************************************************************************************************************************
+The following are default behaviour of flex-items inside a newly established flex-container:
+
+What is the default flex-direction value of flex-items?
+row
+
+Where do items position themselves?
+start edge of main axis.
+
+How do items grow or shrink on the main axis?
+Items may shrink along the main axis to fit container.
+
+How do items grow or shrink on the cross axis?
+Items expand along cross axis to fully fill container. 
+
+What is the default flex-basis value of flex-items?
+auto
+
+What is the default flex-wrap value of flex-items?
+nowrap
+

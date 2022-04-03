@@ -1,0 +1,55 @@
+What are protocol suites and what they used for?
+Protocol suite: A group of inter-related protocols necessary to ensure interoperability between network devices.
+
+Why does WWW need a common protocol suite?
+IoE involves a mixture of short and long range data transmissions. 
+Within a short LAN, all end devices manufactured by one Vendor could be operating under protocols specific to that vendor.
+Long transmission involves data sent to devices manufactured by various geographical vendors with different protocols.
+Thus IoE common protocol suite is required to ensure devices from different vendors all work in the WWW.
+
+Protocol suite of the WWW is Transmission Control Protocol or Internet Protocol.
+
+
+
+What is the client-server model?
+A model where workload is partitioned between centralised servers and clients. 
+
+
+
+What is the difference between Cloud-computing model and Client-server model?
+
+Cloud-computing model have servers and services dispersed in distributed data centres instead of being centralised. 
+
+Network edge: Interface between device or local network with internet.
+
+
+How are IP addresses allocated?
+Default gateway: A node in a network which forwards packets to another network when destination IP address does not match with any routes.
+Default gateway IP is assigned by ISP.
+
+IPV4 addresses are automatically assigned by Dunamic HOst Configuration Protocol / DHCPv4
+IPV6 addresses are obtained from IPV6 router by Stateless Address Autoconfiguration or alternatively through Dynamic Host Configuration Protocol for IPV6, DHCPv6
+
+
+802.15 protocol devices must forward data to IP-enabled device to communicate on the internet. Examples of such devices are bluetooth-enabled, NFC etc.
+
+
+###################################################################################################################################################################
+
+How do Cloud-computing model support IoE?
+Cloud-computing has synchronised data such that data from server in one data center is identical to server in another.
+End users access data through applications of the cloud instead of software installed locally to end device.
+e.g. Gmail vs Outlook where you can't view email without outlook app installed on pc.
+An user can process data using different services without being constrained by hardware limitations or portability issues.
+
+
+What is the advantage of fog computing?
+Devices with sensors generate large amount of data in real time.
+Inefficient to transmit all data from devices into cloud, analyze then forward decisions back to network edge.
+Fog computing networks are closer to network edges and execute tasks requiring quick response before data reaches cloud.
+Thereby, reducing data burden on network from too many devices.
+Thus devices can operate when network connections are lost.
+
+
+
+

@@ -1,0 +1,85 @@
+What kind of program is Git?
+A distributed version control system.
+
+How do version control programs like Git differ from saves in a text editor?
+Text editor saves the latest content changes to a file. e.g. PersonX buys a different fruit each week, saving the name of fruit he just bought into fruit.txt
+
+Version control keeps a revision of all changes to a file(files) over time. e.g. PersonX buys a different fruit each week but keeps a history of all versions of fruit.txt, so he remember all the fruit he tasted.
+
+
+What is the advantage of version control softwares over text editor?
+VC keeps a project history consisting of:
+When a change was made
+Why a change was made.
+What changed.
+Revert parts or whole of a project to an older version.
+
+
+Types of version control systems?
+Local
+Centralized
+Distributed
+
+How do local version control systems like RCS work?
+Patch files store differences between files.
+Specific versions of project recreated by summing patches. 
+
+How do centralized version control systems like CVS work?
+A master repository of full project history is contained inside a central server.
+Clients retrieve the latest snapshot of project from server.
+Client commits changes directly to master repository.
+
+What are the advantages of CVCS over local version control?
+Clients do not have to localize an entire database of the full project history.
+Submitting changes to a central server enables collaboration between all clients.
+
+How do distributed version control systems like Git work?
+Client locally mirror a master repository from a server.
+Each client has access to full project history instead of just snapshots of versions.
+Client push changes to local repository.
+Clients review changes in their local repository before sets of changes gets merged into master repository.
+
+
+What are the advantages of DVCS over CVCS?
+Each group with a local repository can work offline from the main server.
+No single point of failure in the form of central server because each client can access full project history without central server.
+In event of server breakdown, full revision of project can be be restored to a new server from any client with local repository.
+Specific versions can be retrieved quicker from local than central server.
+Reduced merge conflict through hierachical model changes in local repositories are reviewed before being merged with master repository.
+
+
+Name and describe the 3 file states of a git.
+Modified: File changed but not committed to database.
+Staged: File changed and set to be a part of the next commit snapshot.
+Committed: Data of the file has been committed to database.
+
+
+
+
+Name and describe the 3 sections of a git project.
+Working tree: Extracting a version of project from .git repository to local disk. 
+Staging area: A file in .git repository containing a list of files staged for next commit.
+.git directory: Contains database and metadata about project. 
+
+
+Describe the steps in a basic git workflow:
+1) Modify files in working tree
+2) Send staged files into staging area.
+3) Commit files from staging area into a snapshot of the .git repository.
+
+
+What is the difference between a fork and branch?
+
+A branch is a temporary splitting of project for developing new features. 
+Usually branches merge back to origin/master. No new project is produced.
+
+A fork creates a new project independent from a parent project and the two may never converge.
+
+
+
+
+
+
+
+
+

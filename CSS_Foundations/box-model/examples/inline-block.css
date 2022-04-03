@@ -1,0 +1,32 @@
+
+/*
+Styling for inline element in paragraph.
+*/
+span.red {
+    border: dotted red 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline;
+}
+
+/*
+Styling for inline element in paragraph.
+Note, the element is far smaller than the block, despite a bigger width and height,
+because inline elements have no width or height properties.
+
+The horizontal padding, border and margin doesn't repel rest of paragraph, so overlap occurs.
+
+*/
+
+span.brown {
+    border: dotted brown 5px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+
+}

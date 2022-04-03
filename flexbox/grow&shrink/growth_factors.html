@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>growth-factor showcase</title>
+        <link rel="stylesheet" href="./growth_factor.css">
+    </head>
+    <body>
+        <h1>Basic display usage</h1>
+        <h2>Default flex values</h2>
+        <!--Got to display_usage.css-->
+        <p>All 3 boxes are the same size because they all have the same growth factor. i.e. 
+           flex-grow is set to 1 for all of them.</p>
+        <div class="flex-container">
+            <div class="one">growth factor 1</div>
+            <div class="two">growth factor 1</div>
+            <div class="three">growth factor 2</div>
+        </div>
+        <h2>Custom flex-grow values</h2>
+        <p>
+            Here the second grid is much wider because its growth factor is set to 2 whilst
+            its neighbour's growth factors are set to 1. 
+        </p>
+        <div class="diff-growth">
+            <div class="one">growth factor 1</div>
+            <div class="two">growth factor 2</div>
+            <div class="three">growth factor 1</div>
+        </div>
+    </body>
+</html>

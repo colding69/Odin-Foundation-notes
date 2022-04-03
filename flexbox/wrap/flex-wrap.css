@@ -1,0 +1,41 @@
+.button-block,
+.multiline {
+    display: flex;
+    border: dotted black 2px;
+    height: 200px;
+    width: 600px;
+}
+
+p {
+    font-size: larger;
+    font-weight: 300;
+}
+
+/* There are 4 buttons in each container,
+the total width is 800px
+but shrinkage occurs because all 4 buttons need to fit
+the container width inline*/
+.button-block button,
+.multiline button,
+.flow button {
+    height: 40px;
+    width: 200px;
+    background-color: lightpink;
+}
+
+/* To get the buttons to overflow if width of container is not enough
+for them all to be on same line, use wrap value. */
+
+.multiline {
+    flex-wrap: wrap;
+}
+
+/* flex-flow is a short hand for  flex-flow: [flex-direction] [flex-wrap]; */
+.flow {
+    display: flex;
+    height: 100px;
+    width: 600px;
+    border: dotted black 2px;
+    flex-flow: column wrap;
+}
+

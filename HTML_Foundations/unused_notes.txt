@@ -1,0 +1,97 @@
+ git config --global core.editor "code --wait"
+ # A command which makes vscode the default editor instead of vim for
+ # multiline git commit messages
+ # use 'git commit' to open vscode up
+
+
+
+Why aren't HTML and CSS programming languages?
+
+They cannot perform calculations and logic.
+
+
+Semantic HTML
+Using the appropriate element for contents.
+
+Why is semantic HTML good practice?
+SEO
+Uers with assistive technology like screen readers.
+
+
+
+What is a doctype declaration for?
+Inform Browser what version of HTML to render the page in.
+
+
+What does index.html represent?
+The homepage of a website.
+
+
+Why have an index.html?
+Web servers by default directs visitors to index page.
+Not having one causes exceptions.
+
+
+The head element contains metadata. It should not contain elements for displaying content on webpage.
+
+
+Why is it important to specify charset encoding correctly?
+Ensure logorams from other languages are correctly displayed by browser. 
+
+An attribute has 2 parts:
+Name
+Value
+
+What are absolute links?
+Links to other websites on remote servers.
+Contains protocol + domain name of destination.
+
+Write the basic structure of an absolute URL
+protocol://domain/path
+
+What are relative links?
+Links to webpages within own website.
+Because of this, relative links do not contain domain name.
+The path is relative to the webpage containing the link.
+
+
+What are the four main image formats that you can use for images on the web?
+
+jpg
+png
+gif
+svg
+
+Use case for jpg images?
+Diverse colour palette and gradients without increasing file size.
+
+Disadvantages of jpg images?
+Can't display transparent pixels.
+
+
+Use case for png images?
+Best for icons, logos, technical diagrams etc.
+No limits to colour palette.
+No limitations on transparent pixels.
+
+Disadvantages of png images?
+Unsuitable for photos or animation because file size would be too large.
+
+Use case for gif images?
+Simple animations.
+
+Disadvantages of gif images?
+Limited colour palette hence unsuitable for photos.
+
+Lacks high level of detail on transparent background 
+because transparent pixel is a binary option, not continuous.
+
+What is SVG?
+A vector-based graphics format.
+
+Use case for svg images?
+Responsive design
+because it can scale to any dimension without losing quality.
+
+Disadvantages of svg images?
+Unsuitable for images with lots of text. 

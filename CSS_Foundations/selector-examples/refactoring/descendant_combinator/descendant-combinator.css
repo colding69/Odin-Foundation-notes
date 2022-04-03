@@ -1,0 +1,4 @@
+/* descendant-combinator.html shows that squid is a descendant to ancestor cephalopod. */
+.cephalopod .cuttlefish {
+    background-color: brown;
+}

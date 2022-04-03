@@ -1,0 +1,25 @@
+You can have identical class on multiple elements. e.g.
+
+<div class="Colour"> Lorem Ipsum </div>
+<p class="Colour"> Lorem Ipsum </p>
+<a class="Colour" href=""> Lorem Ipsum </a>
+
+You can have multiple class attributes for one element. e.g.
+<div class="Class1 Class2 Class3"> Lorem Ipsum </div>
+
+Refactoring CSS code:
+grouping, when multiple selected elements use the same style.
+chaining 
+combinators, [descendant combinator, x, x, x]
+
+*******************************************************************************************
+What is the major difference between classes and id attribute usages?
+An element can have multiple classes values but only 1 id value.
+
+Why should you include a list of values for font-size property?
+So that the browser has further options if it can't support the first font family.
+
+What will happen if you do not explicitly state height and width for an image?
+The Browser would not reserve a space on the webpage for the image.
+This means the image will take a long time to load.
+After the image loads, the layout of other contents will be messed up.

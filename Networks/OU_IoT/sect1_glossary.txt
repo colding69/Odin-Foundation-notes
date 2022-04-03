@@ -1,0 +1,38 @@
+Converged networks: 
+Definition: When {{c1::information of different types}} (broadband data, voice, video etc) {{c1::all use same communication channel and network structure}}.
+
+LAN:
+Stands for {{c1::Local Area Network}}
+Definition: {{c1::Covers end devices in a limited coverage area}}.
+
+WAN:
+Stands for {{c1::Wide Area Network}}
+Definition: {{c1::Internconnects multiple LAN over a broad geographical area}}.
+
+DCN
+Stands for {{c1::Data Center Network}}
+Exchanges data {{c1::quickly}}.
+Used in data centers.
+
+
+
+End devices:
+Definition: {{c1::Source and destination of messages transmitted over a network}}.
+
+Hosts:
+Definition: {{c1::End devices in a network participating in communication}}.
+
+Intermediary devices:
+Definition: {{c1::Computing device which interconnects individual hosts to the network or connects networks to each other}}.
+Function: {{c1: determines path and directs data}} inside network.
+Examples: {{c1::Routers}}, {{c1::firewalls}}
+
+Things:
+Definition: {{c1::physical objects with sensors that are connected to a network}}.
+
+Server: 
+Definition: {{c1::A type of end device that provides information to client.}}
+
+Client: 
+Definition: {{c1:: A type of end device makes requests to and displays information from server.}}
+

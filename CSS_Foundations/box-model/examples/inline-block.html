@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>inline-block showcase</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./inline-block.css">
+    </head>
+    <body>
+        <h1>Inline-block Showcase</h1>
+        <h2>What if you use inline element?</h2>
+        <!--
+            Scenario. You have an inline-level element inside a paragraph.
+            The inline element's width and height will not be respected.
+            Hence why it overlaps with its paragraph.
+        -->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <span class="red">BLOCK</span> 
+            Ipsum eum in iure quod repudiandae, eveniet libero eius enim 
+            asperiores nulla molestiae recusandae, iusto corporis molestias 
+            delectus deserunt facere soluta id!
+        </p>
+        <!--
+            Scenario. You want a compromise between block display
+            and inline display. i.e. have the width and height be respected
+            but not have the box start on a new line.
+        -->
+        <h2>What if you use inline-block element?</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <span class="brown">INLINE</span> 
+            Ipsum eum in iure quod repudiandae, eveniet libero eius enim 
+            asperiores nulla molestiae recusandae, iusto corporis molestias 
+            delectus deserunt facere soluta id!
+        </p>
+    </body>
+</html>

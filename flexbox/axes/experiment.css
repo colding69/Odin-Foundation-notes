@@ -1,0 +1,26 @@
+.container {
+    display:flex;
+    border: black solid 5px;
+    height:100px;
+    width:600px;
+}
+
+.container div {
+    border: dotted 2px red;
+    width:400px;
+    background-color: lavender;
+}
+
+.column-container {
+    display: flex;;
+    flex-direction: column;
+    height: 500px;
+    width: 200px;
+    border: black solid 5px;
+}
+
+.column-container div {
+    border: dotted 2px red;
+    background-color: lavender;
+    height:300px;
+}

@@ -1,0 +1,104 @@
+
+
+What is the difference between the standard and alternative box model?
+In standard box model the total box size consists of:
+content height and width + paddings + border
+
+total width = user defined width of content + 2(padding) + 2(border)
+total height = user defined height of content + 2(padding + 2(border)
+
+In alternative box model the total box size is the same as content width and height.
+
+
+
+What are behavioural differences between inner display type and outer display type boxes?
+Outer display controls behaviour of box in relation to other boxes on page.
+Inner display controls arragnement of elements inside boxes.
+
+What is the default inner display type?
+Normal flow where elements inside the box behave like block or innline outer displays.
+
+
+What types of outer display are there?
+Block
+Inline
+
+What elements use block as default for outer display type?
+h1
+p
+
+What elements use inline as default for outer display type?
+anchor
+span
+emphasis
+strong
+******************************************************************
+What happens in a margin collapse?
+Vertical margins between 2 elements overlap and merge into 1 margin.
+
+What happens when both margins have positive value?
+size of final margin = size of largest margin between the 2.
+
+What happens when one margin is positive and one margin is negative?
+size of final margin =  positive margin + negative margin.
+
+What happens when both margins have negative value?
+size of final margin = size of smallest margin between the 2.
+
+Do horizontal margins collapse?
+No!
+
+
+As good practice:
+Do not modify padding, border or margins to an inline element. Change their display to inline-blocks before doing so.
+Use span as generic inline container, use div as generic block container.
+Use flexbox over inline-blocks.
+
+
+###########################################################################
+Knowledge Check
+From inside to outside, what is the order of box-model properties?
+Content, padding, border, margin
+
+What does the box-sizing CSS property do?
+Turns on alternative box model instead of the default standard box model.
+
+What is the difference between standard and alternative box model?
+Standard box model's box width and height includes paddings, borders and margins.
+Whereas alternative box model's box with and height are just the width and height of the content.
+
+Would you use margin or padding to create more space between 2 elements?
+Use margin as it's the space between 2 boxes.
+
+Would you use margin or padding to create more space between the contents of an element and its border?
+Use padding as it's the space within a box's own border.
+
+Would you use margin or padding if you wanted two elements to overlap each other?
+Use margin, a negative value will ensure the 2 boxes overlap into each other.
+
+
+####################################################################################################################
+Knowledge Check
+What is the difference between a block element and an inline element?
+Block elements break onto new lines, have width and height property and repels other elments with its padding, border and margin.
+Block elements extend as wide as its container.
+
+Inline elements sit adjacent to other elements if there is space. It has no width and height properties. Its padding, border and margin
+do not repel other elements vertically. They do repel other inline elements horizontally.
+Inline elements are as wide as the width of only its contents.
+
+What is the difference between an inline element and an inline-block element?
+Inline block elements have width and height properties like a block element.
+But do not start on a new line like inline element.
+
+Is an h1 block or inline?
+block
+
+Is button block or inline?
+inline
+
+Is div block or inline?
+block
+
+Is span block or inline?
+inline.

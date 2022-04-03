@@ -1,0 +1,65 @@
+/* group the boxes together for common rules*/
+p {
+    font-size:30px;
+}
+
+.d1,
+.d2,
+.d3 {
+    border: solid 5px black;
+    padding-top: 200px;
+}
+
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6 {
+    border: solid red;
+}
+
+/* 
+positive and positive margins
+The final margin size between b1 and b2 will be 100px.
+To demonstrate this, if you change the 70px to 10px,
+the gap between b1 and b2 won't change. 
+*/
+
+.b1 {
+    margin-bottom:70px;
+}
+
+.b2 {
+    margin-top:100px;
+}
+
+/*
+positive and negative margins
+The final margin size = positive margin + negative margin.
+If you change the -50px to 100px then the gap between b3 and b4 should double.
+*/
+
+.b3 {
+    margin-bottom:100px;
+}
+
+.b4 {
+    margin-top:-50px;
+}
+
+/* 
+negative and negative margins
+The final margin size will be -10px.
+To demonstrate this, try to change -7px to -9px,
+the gap should not change.-
+*/
+
+.b5 {
+    margin-bottom: -10px;
+}
+
+.b6 {
+    margin-top: -7px;
+}

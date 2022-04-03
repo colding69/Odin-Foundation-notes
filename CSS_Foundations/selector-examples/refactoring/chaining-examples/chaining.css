@@ -1,0 +1,26 @@
+
+/*
+Below is how to chain selectors so only elements with classes water AND fresh
+are selected.  
+*/
+
+.water.fresh {
+    background-color:aquamarine;
+}
+
+/*
+Note! Chaining only works for class selectors! Not for type selectors!
+i.e. you can't chain to colour the text red for both the subtitle and 
+the header elements in chaining.html.
+
+The code below will not function!
+CSS will think you're referring to h2p elment tag which doesn't exist.
+*/
+
+.h2.p {
+    color:red;
+}
+
+.dry.salty {
+    background-color: yellow;
+}

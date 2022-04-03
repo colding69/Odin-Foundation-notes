@@ -1,0 +1,40 @@
+Explain techniques for asking programming questions:
+ - Include code snippets
+ - Specific number line
+ - Detail chronology of what you tried
+ - Ask areas to research if completely unable to start.
+
+XY problem
+When a user asks about an attempted solution without mentioning the problem he is trying to solve with it. 
+Solution Y can seemingly solve problem X.
+Asking how solution Y works only to find out it's not fit to solve X. Time wasted.
+Always mention the big picture of why to any how.
+
+ 
+Technique / checklist
+
+1. Understand line-by-line. Take note whenever a line is not understood.
+2. Use a debugger.
+3. Give source to problem. i.e. URL, timestamp.
+4. Explain chronology with provided code snippet. What you tried(hypothesis). What you expected. What you did not get.
+5. Provide error message in full.
+6. Check the extracted code snippet actually doesn't work outside of scipt.
+7. Include a personal guess on why it doesn't work.
+8. Proofread and spellcheck question before submitting.
+9. Before thanking the answerer, verify whether their solution works.
+
+
+Knowledge Check
+
+1) Name at least one thing your question should always include.
+Code Snippets
+
+2) Describe the “XY Problem”.
+Similar to a patient asking for the right course of antibiotics without mentioning he has a viral infection. 
+He's asking about the solution he thinks he needs which may not be fit for the problem at hand.
+
+3) Describe three attributes of a "help vampire."
+Feeling offended at suggestions of a better approach he is inexperienced at.
+Reluctance to google and research before human resource.
+Asking the same question repetitively.
+

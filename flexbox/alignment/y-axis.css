@@ -1,0 +1,37 @@
+div {
+    border: solid black 1px;
+    background-color: lightgreen;
+    width: 100px;
+    height: 50px;
+}
+
+.unchanged,
+.central,
+.bottom {
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+
+/* unchanged */
+.unchanged div {
+    background-color: red;
+}
+
+/* Align the 3 boxes in the center, VERTICALLY along y axis! */
+.central {
+    align-items:center;
+}
+
+.central div {
+    background-color: blue;
+}
+
+/* Align the 3 boxes to the bottom, VERTICALLY along y axis! */
+.bottom {
+    align-items: flex-end;
+}
+
+.bottom div {
+    background-color: blue;
+}

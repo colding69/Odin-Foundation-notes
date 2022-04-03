@@ -1,0 +1,34 @@
+************************************************************************
+Difference between IoT and IoE?
+IoE is built on top of IoT and consists of the 4 pillars of data, process, people, things.
+IoT refers to increase things connected to internet due to Moore's laws. 
+
+Sensor: Convert data in physical environment into electrical signals for computing  devices.
+Controller: Collects data from sensors. Provides internet connection. Redirect data through router to processing computers.  
+*************************************************************************
+
+How do packets travel across internet?
+Packets are forwarded from router to router.
+Each router decides the optimal path to destination. 
+
+IP address identifies source and destination of data packets on a network.
+
+What is the advantage of encoding data in binary?
+Long distance transmission without degrading quality.
+Efficient storage.
+
+Data is transported between ISP networks through Internet Protocol packets.
+
+An IP packet consists of:
+source IP address
+destination IP address
+
+3 types of data storage
+
+Local data: Stored and accessed directly by local devices. e.g. Hard disks, USB.
+Centralised data:  Stored and shared from a single centralised server across multiple devices over a network. Centralised data server are prone to bottlenecks and become single source of failure.
+Distributed data: Accessed through the use of local and global applications. Managed by Central Database Management Systems and is replicated then stored across multiple locations. No single source of failure unlike Centralised data.
+
+Servers are directly connected to internet.
+Clients require ISP to access other host devices on internet.  
+******************************************************************************

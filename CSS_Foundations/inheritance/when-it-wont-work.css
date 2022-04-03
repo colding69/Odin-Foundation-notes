@@ -1,0 +1,31 @@
+#ancestor {
+    color: red;
+}
+
+.descendant {
+    color: blue;
+}
+
+/*
+Do you think the text of paragraph will be blue or red?
+Correct answer: Blue
+Reason: 
+descedant wasn't directly selected as in 
+#ancestor .descendant
+thus its inherited red text from ancestor got overwritten because 
+.descendant directly selected it.
+*/
+
+
+/*
+This here will ensure the background colour of paragraph is purple.
+Because both the ancestor and descendant together as a descendant recombinator
+has a higher specificity than just descendant by itself.
+*/
+#ancestor .descendant{
+    background-color:purple;
+}
+
+.descendant {
+    background-color:brown;
+}

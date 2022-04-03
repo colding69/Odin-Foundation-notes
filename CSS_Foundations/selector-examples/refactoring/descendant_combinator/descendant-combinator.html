@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./descendant-combinator.css">
+    <title>Descendant combinator showcase</title>
+</head>
+<body>
+    <h1>Descendant Combinator Showcase</h1>
+    <!--
+        Scenario: Select only cuttlefish, a genus of cephalopod but not squid.
+        Go to descendant-combinator.css
+    -->
+    <div class="cephalopod">
+        <p class="cuttlefish">Select cuttlefish which is a type of cephalopod.</p>
+    </div>
+    <div class="cephalopod">
+        <p class="squid">Don't select squid even though it is a cephalopod.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.bold {
+    /* font-weight for boldness. A value between 1-1000. 700 is standard bold. */
+    font-weight:1000;
+    /* font-size for size of text in pixels. */
+    font-size: 15px;
+}

@@ -1,0 +1,33 @@
+.container {
+    display:inline-flex;
+    border: solid black 5px;
+    padding: 150px;
+    background-color: aqua;
+}
+
+.box {
+    font-size: 20px;
+    border: solid blue 2px;
+    padding: 30px;
+    background-color: white;
+}
+
+/* A negative margin value will cause the margin to contract and overlap with the box. */
+
+.container2 {
+    display:inline-flex;
+    border: solid black 5px;
+    padding: 150px;
+    background-color: aqua;
+}
+
+.box2 {
+    font-size: 20px;
+    border: solid blue 2px;
+    padding: 30px;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: -300px;
+    margin-left: 10px;
+}

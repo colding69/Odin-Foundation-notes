@@ -1,0 +1,28 @@
+How are client and server devices connected differently to internet?
+Servers are directly connected to internet.
+Clients have to connect to internet through an ISP.
+
+Journey of data packets between client A to B on the same network and different networks?
+If client A and B are on same network, client A --> ISP -- client B
+If client A has are on different network, client A --> ISP A --> ISP B --> client B.
+
+
+Router lies at intersections in network.
+What are the role of routers?
+Routers lies at intersection in network to direct packets across internet.
+
+
+How do IP addresses and routers prevent device Y from seeing device X's information on same local network? i.e. Candyy analogy?
+
+As request packet travels from client to server, each router it encounters adds its own IP address on top of the client's IP address. i.e. wrapping a new layer on the candy.
+
+Server produces response packet and layers identical IP addresses on top of it.
+
+As response packet travels from server to client, each router unwraps a layer of IP address.
+
+
+
+
+
+
+

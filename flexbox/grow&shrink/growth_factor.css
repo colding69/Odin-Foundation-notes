@@ -1,0 +1,40 @@
+/* 
+This makes all the boxes inline, bc
+all 3 boxes are within 1 flex container instead of 3 elements with flex display
+which would place them each on newlines.
+ */
+.flex-container,.diff-growth {
+    display: flex;
+    height: 200px;
+}
+
+/* 
+Each grid will be 100 pixels tall
+default value for flex-grow is 0, 
+flex-shrink is 1,
+flex-basis is 0%
+flex: 1; sets flex-growth to 1 and the rest (flex-shrink and flex-basis) as default values.
+
+When the growth factor of all the boxes are the same, the boxes will be
+the same size.
+GROWTH FACTOR IS THE MAXIMUM SIZE THE BOXES WILL EXPAND TO.
+*/
+.flex-container div {
+    background-color: lavender;
+    border: solid black 2px;
+    /* flex: 1 1 0%; */
+    flex: 1;
+}
+
+.diff-growth div {
+    background-color: lavender;
+    border: solid black 2px;
+    flex: 1 1 0%;
+}
+
+/* make second grid bigger */
+.diff-growth .two {
+    /* change to 2 1 % */
+    flex: 2;
+    background-color:pink;
+}

@@ -1,0 +1,26 @@
+.container {
+    display:flex;
+    border: solid 2px black;
+    height: 200px;
+    width: 900px;
+}
+
+.one, .two, .three {
+    border: solid 2px black;
+    width:300px;
+    background-color: lavender;
+}
+
+.container .two {
+    width:500px;
+    background-color: red;
+    /* 
+    If you set the flex-basis to 0 then the second box disappears
+    because the baseline it will grow from is 0 instead of auto.
+
+    WITHOUT AUTO, THE 500px WIDTH IS NOT TAKEN INTO ACCOUNT!
+    The box is 0px wide and not set to grow by any factors.
+    TRY CHANGING THE FLEX-BASIS TO AUTO.
+    */
+    flex-basis: 0%;
+}

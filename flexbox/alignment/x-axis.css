@@ -1,0 +1,50 @@
+.unchanged,
+.central,
+.end,
+.space-between {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+/* unchanged */
+
+div {
+    border: solid black 2px;
+    width: 100px;
+}
+
+.unchanged div {
+    background-color: lavender;
+    flex: 0 0 auto;
+}
+
+
+/* Align the 3 boxes to the center of container. */
+.central {
+    justify-content: center;
+}
+
+.central div {
+    background-color: aqua;
+}
+
+/* Align the 3 boxes to the right of container. */
+.end {
+    justify-content: right;
+}
+
+.end div {
+    background-color: red;
+}
+
+/* Space them evenly across the line */
+.space-between {
+    justify-content: space-between;
+}
+
+.space-between div {
+    background-color: red;
+}
+

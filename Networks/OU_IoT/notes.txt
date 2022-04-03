@@ -1,0 +1,56 @@
+Four ages of internet
+
+1) Connectivity. Search engine and emails. 1980s
+2) Networked Economy. Digitalised supply chains. 1990s
+3) Collaboration. Digitalised interpesonal interactions. 2000s
+4) IoT. Connection of people, process, data, things. 2010s.
+
+
+
+Cisco intellgent network makes up the software, hardware and platforms for IoT.
+
+
+
+Four pillars of IoT:
+People. Wearable devices
+Process. Optimise connectivity between other pillars.
+Data. Derivative of people and things. Analytics offer data-driven decision making.
+Things. Smart devices.
+
+Three types of connection in IoE:
+P2P people to people
+M2P machine to people
+M2M machine to machine
+
+
+Attributes of a IoE-ready business:
+Hyper-awareness: Sensors on products to monitor customer sentiment in real time.
+Predictive: Data anlytics to forecast future trends and behaviours.
+Agility: Achieve competitive differentiation through faster responses than competitors to market trends.
+
+Hosts: Computing devices in a network participating in communication.
+converged networks: transfers different media to different devices over same communication channel and network structure. i.e. phone, TV and broadband
+
+End device: Source or destination of data transmitted over the network.
+Server: A type of end device that provides information to client.
+Client: A type of end device makes requests to and displays information from server.
+
+Intermediary devices: Devices interconnecting end devices and manages data flow in the network.
+Internetwork: Network formed by intermediary devices connecting multiple networks.
+Examples of intermediary network devices: firewalls, routers, internet access points.
+
+Processes in an intermediary network:
+permit or deny flow of data for security
+notify devices of errors 
+classify and direct data according to Quality of Services (QoS) priorities.
+Retransmit data along alternate pathways when there is a link failure.
+
+The medium (fibre optics vs wireless) for network should be decided by:
+distance to trasnmit data
+environment for the installation
+size of data and latency
+
+
+Size of networks:
+LAN. Local Area Network. Limited coverage area. High speed bandwidth to all computing devices on the network.
+WAN. Wide Area Network. Geographical area coverage. Consists of multiple LAN. Owned by commercial or government entity. Link speed between LANs slower than Link speeds within LANs.

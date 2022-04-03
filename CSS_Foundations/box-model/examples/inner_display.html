@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>inner display showcase</title>
+        <link rel="stylesheet" type="text/css" href="./inner_display.css">
+    </head>
+    <body>
+        <h1>Showing how inner display affects presentations</h1>
+        <h2>A list element with normal flow for its sub-elements (list items)</h2>
+        <br>
+        <ul class="block">
+            <!--
+                Explanation:
+                By using default normal flow for inner display, all list items are treated 
+                as block type elements. 
+                
+                Block type elements always breaks on a new line.
+                Hence the 3 items will always start on a separate line from each other.
+            -->
+            <li>First line</li>
+            <li>Second line</li>
+            <li>Third line</li>
+        </ul>
+        <br>
+        <h2>A list element with flex for inner display</h2>
+        <br>
+        <ul class="eukaryotic-gene">
+            <!--
+                Explanation:
+                By using flex for inner display, all list items are treated as flex
+                items.
+
+                Flexbox convention makes them stay on one line.
+            -->
+            <li>Promoter</li>
+            <li>5'Untranslated Region</li>
+            <li>Exon</li>
+            <li>Intron</li>
+            <li>Exon</li>
+            <li>3' Untranslated Region</li>
+            <li>Terminator Sequence</li>
+        </ul>
+    </body>
+</html>

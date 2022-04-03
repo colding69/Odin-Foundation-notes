@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess around</title>
+    <link rel="stylesheet" href="./experiment.css">
+</head>
+<body>
+    <h1>Mess around</h1>
+    <h2>Does flex-container width(main axis length in this case) override flex-item width?</h2>
+    <div class="container">
+        <div></div>
+        <div></div>
+    </div>
+    <p>RESULT: YES. If you go to experiment.css, you'll find that the black flex-container has a width of 600px.
+        Both flex-items have width of 400px each, meaning their total width of 800px. The width of flex-container did not stretch
+        to accomodate for the other 200px;
+        Each flex-item instead shrunk to 300px wide.
+    </p>
+    <h2>Would this still apply if main axis was set to height instead of width?</h2>
+    <div class="column-container">
+        <div></div>
+        <div></div>
+    </div>
+    <p>RESULT: YES. This time the main axis runs vertically due to column value. However, the rules are unchanged,
+        the height of container did not change to accomodate an extra 100px from the combined height of the items.
+    </p>
+</body>
+</html>

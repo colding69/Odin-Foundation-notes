@@ -1,0 +1,57 @@
+/* 
+This is what makes all the boxes inline,
+All 3 boxes are to be flex-items inline within a flex-container.
+
+BOTH FLEX-CONTAINERS HAVE WIDTH OF 900PX.
+
+ */
+.default,.custom {
+    display:flex;
+    width: 200px;
+    width: 900px;
+}
+
+/* 
+Styles applicable to the flex-items of both defaul and custom containers.
+*/
+.default div,.custom div {
+    display: flex;
+    border: black solid 2px;
+    background-color: lavender;
+    height:100px;
+    width:300px;
+}
+
+
+
+/* 
+by setting flex shrink of custom container's items to 0,
+the minimum the boxes can shrink to is shrink factor 0,
+hence the boxes are 400px wide each.
+
+the default flex shrink of 1 would ensure that the boxes
+do not extend beyond container
+i.e. they'll be 300px wide each despite you have specified for 400px;
+
+TRY REMOVING LINE 40 AND SEE WHAT HAPPENS WHEN THE BOXES HAVE DEFAULT SHRINK FACTOR.
+*/
+.custom div {
+    width: 400px;
+    flex-shrink: 0;
+}
+
+/* 
+Set shrink-factor of second flex-item, "shrunk" to 0 instead of 1.
+this means that the minimize size the box can shrink to is 300px as set above.
+*.
+*/
+
+/*
+TRY UNCOMMENTING THIS BLOCK AND SEE IF THE PINK BOX IS WIDER THAN THE OTHERS.
+
+.custom .shrunk {
+    background-color: pink;
+    flex-shrink: 0;
+    width:600px;
+}
+*/

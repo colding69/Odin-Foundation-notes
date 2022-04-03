@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./margin-collapse.css">
+    <title>Margin collapse</title>
+</head>
+<body>
+    <h1>Margin Collapse</h1>
+    <!--When the VERTICAL margins of 2 elements overlap, they merge into one margin.-->
+    <h2>Both margins have positive value.</h2>
+    <div class="d1">
+        <p class="b1">b1 with margin of 70x</p>
+        <p class="b2">b2 with margin of 100px</p>
+    </div>
+    <!--The larger margin will overwrite the smaller margin.-->
+    <h2>One margin positive, one margin negative.</h2>
+    <div class="d2">
+        <p class="b3">b3 with margin of 100px</p>
+        <p class="b4">b4 with margin of -50px</p>
+    </div>
+    <!--Add positive margin with negative to cancel them out.-->
+    <h2>Both margins have negative value.</h2>
+    <div class="d3">
+        <p class="b5">Box with margin of -10px</p>
+        <p class="b6">Box with margin of -7px</p>
+    </div>
+    <!--The smaller margin will overwrite the larger margin.-->
+</body>
+</html>

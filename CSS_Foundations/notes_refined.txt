@@ -1,0 +1,28 @@
+What are the main differences between external, internal/embedded, and inline CSS?
+External CSS are written into a CSS stylesheets separate from HTML file.
+Internal CSS are written into the head section of a HTML file. 
+Inline CSS are written into the selected element within the body of a HTML file.
+
+How do external, embedded and inline CSS rank in terms of specificity?
+Inline > internal > external
+
+What are the advantages of external CSS?
+Smaller HTML file
+Multiple webpages can share style through 1 CSS stylesheet.
+
+What are the advantages of embedded CSS?
+Add an unique style to one HTML file without affecting others.
+
+What are the advantages of inline CSS?
+Highest specificity.
+
+What is the use of grouping?
+Apply a specific rule to multiple selectors at once.
+
+What is the use of chaining?
+Apply a rule only if a selector has classX or id AND classY
+
+What is the use of descedant combinator?
+Apply rule to element for the conditions that:
+The last selector matches descendant selector.
+The previous selectors matches ancestor selector.

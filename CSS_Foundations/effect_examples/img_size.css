@@ -1,0 +1,9 @@
+
+/*
+To resize image without distorting its proportions, only change the width.
+The height should be set to auto value.
+*/
+img {
+    height:auto;
+    width:700px;
+}
